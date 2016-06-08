@@ -34,8 +34,8 @@ var
     }
   };
 
-// blacklist all playlists except one to start (so there is no automatic switching
-// start with lowest resolution)
+// blacklist all playlists except one to start (so there is no automatic switching)
+// start with lowest resolution
 excludeAllExcept([playlists[0].attributes.BANDWIDTH]);
 
 setInterval(function() {
