@@ -52,5 +52,4 @@ setInterval(function() {
   action();
 }, 2000); // run every 2 seconds
 
-player.muted(true);
 player.play();

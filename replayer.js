@@ -33,7 +33,6 @@ var
     });
   };
 
-player.muted(true);
 player.play();
 
 var promise = wait(4); // placeholder
